@@ -13,6 +13,8 @@
 		937E88C81DCB52C900325402 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 937E88C61DCB52C900325402 /* Main.storyboard */; };
 		937E88CA1DCB52C900325402 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 937E88C91DCB52C900325402 /* Assets.xcassets */; };
 		937E88CD1DCB52C900325402 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 937E88CB1DCB52C900325402 /* LaunchScreen.storyboard */; };
+		937E88D51DCB530E00325402 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 937E88D41DCB530E00325402 /* AVFoundation.framework */; };
+		937E88D71DCB57EE00325402 /* myMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 937E88D61DCB57EE00325402 /* myMusic.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		937E88C91DCB52C900325402 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		937E88CC1DCB52C900325402 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		937E88CE1DCB52C900325402 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		937E88D41DCB530E00325402 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		937E88D61DCB57EE00325402 /* myMusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = myMusic.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				937E88D51DCB530E00325402 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +47,7 @@
 		937E88B11DCB52C900325402 = {
 			isa = PBXGroup;
 			children = (
+				937E88D41DCB530E00325402 /* AVFoundation.framework */,
 				937E88BC1DCB52C900325402 /* NMMusicPlayer */,
 				937E88BB1DCB52C900325402 /* Products */,
 			);
@@ -58,6 +64,7 @@
 		937E88BC1DCB52C900325402 /* NMMusicPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				937E88D61DCB57EE00325402 /* myMusic.mp3 */,
 				937E88C01DCB52C900325402 /* AppDelegate.h */,
 				937E88C11DCB52C900325402 /* AppDelegate.m */,
 				937E88C31DCB52C900325402 /* ViewController.h */,
@@ -137,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				937E88CD1DCB52C900325402 /* LaunchScreen.storyboard in Resources */,
+				937E88D71DCB57EE00325402 /* myMusic.mp3 in Resources */,
 				937E88CA1DCB52C900325402 /* Assets.xcassets in Resources */,
 				937E88C81DCB52C900325402 /* Main.storyboard in Resources */,
 			);
@@ -302,6 +310,7 @@
 				937E88D31DCB52C900325402 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

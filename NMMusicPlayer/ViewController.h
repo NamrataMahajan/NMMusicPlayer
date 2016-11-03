@@ -7,9 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AVFoundation/AVFoundation.h>
 
 @interface ViewController : UIViewController
+{
+    AVAudioPlayer *audioplayer;
+    BOOL isPlaying;
+}
+@property (strong, nonatomic) IBOutlet UIButton *PlayButton;
 
+- (IBAction)ActionPlay:(id)sender;
+- (IBAction)Actionstop:(id)sender;
 
 @end
 
