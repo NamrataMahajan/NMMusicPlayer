@@ -15,6 +15,7 @@
 		937E88CD1DCB52C900325402 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 937E88CB1DCB52C900325402 /* LaunchScreen.storyboard */; };
 		937E88D51DCB530E00325402 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 937E88D41DCB530E00325402 /* AVFoundation.framework */; };
 		937E88D71DCB57EE00325402 /* myMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 937E88D61DCB57EE00325402 /* myMusic.mp3 */; };
+		9397C0CB1DCDD51D00BEDD95 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9397C0CA1DCDD51D00BEDD95 /* MediaPlayer.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		937E88CE1DCB52C900325402 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		937E88D41DCB530E00325402 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		937E88D61DCB57EE00325402 /* myMusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = myMusic.mp3; sourceTree = "<group>"; };
+		9397C0CA1DCDD51D00BEDD95 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9397C0CB1DCDD51D00BEDD95 /* MediaPlayer.framework in Frameworks */,
 				937E88D51DCB530E00325402 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -47,6 +50,7 @@
 		937E88B11DCB52C900325402 = {
 			isa = PBXGroup;
 			children = (
+				9397C0CA1DCDD51D00BEDD95 /* MediaPlayer.framework */,
 				937E88D41DCB530E00325402 /* AVFoundation.framework */,
 				937E88BC1DCB52C900325402 /* NMMusicPlayer */,
 				937E88BB1DCB52C900325402 /* Products */,

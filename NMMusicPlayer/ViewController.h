@@ -12,11 +12,17 @@
 @interface ViewController : UIViewController
 {
     AVAudioPlayer *audioplayer;
+    
     BOOL isPlaying;
+    
+    NSTimer *timer;
 }
+@property (strong, nonatomic) IBOutlet UIImageView *myImageView;
 @property (strong, nonatomic) IBOutlet UIButton *PlayButton;
+@property (strong, nonatomic) IBOutlet UISlider *sliderDuration;
 
 - (IBAction)ActionPlay:(id)sender;
+
 - (IBAction)Actionstop:(id)sender;
 
 @end
